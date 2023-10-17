@@ -7,11 +7,13 @@ import SumarNumeros from './components/SumarNumeros/SumarNumeros';
 import SaludoPadre from './components/SaludoPadre';
 import PadreMatematicas from './components/PadreMatematicas';
 import Contador from './components/Contador';
+import Car from './components/Car';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Contador/>
+    <Car marca="Audi" modelo="Q7" aceleracion="30" velocidadmaxima="230" />
+    <Car marca="Pontiac" modelo="Firebird" aceleracion="40" velocidadmaxima="320"/>
   </React.StrictMode>
 );
 
